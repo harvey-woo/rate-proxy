@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "typescript",
+    "unicorn"
+  ],
+  "categories": {
+    "correctness": "error",
+    "perf": "warn"
+  },
+  "rules": {
+    "no-thenable": "off",
+    "no-await-in-loop": "off"
+  },
+  "ignorePatterns": [
+    "bin/",
+    "node_modules/",
+    "site/dist/"
+  ]
+}

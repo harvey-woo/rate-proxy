@@ -1,0 +1,52 @@
+{
+  "name": "@cat5th/rate-proxy",
+  "version": "0.1.0",
+  "description": "A rate-limited HTTP reverse proxy with concurrency control",
+  "bin": "bin/index.js",
+  "files": [
+    "bin"
+  ],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:harvey-woo/rate-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "rate-limit",
+    "rate-limiting",
+    "concurrency",
+    "http-proxy",
+    "reverse-proxy",
+    "pool"
+  ],
+  "author": "Harvey Woo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harvey-woo/rate-proxy/issues"
+  },
+  "homepage": "https://github.com/harvey-woo/rate-proxy#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsx src/bin.ts",
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint -c oxlint.json"
+  },
+  "workspaces": [
+    "site"
+  ],
+  "dependencies": {
+    "@cat5th/pool.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "oxlint": "^1.63.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "packageManager": "yarn@4.12.0"
+}
