@@ -26,7 +26,7 @@ app.innerHTML = `
   <!-- Hero -->
   <section class="hero">
     <div class="container">
-      <div class="hero-badge">Powered by @cat5th/pool.js</div>
+      <a href="https://pooljs.cat5th.com" target="_blank" rel="noopener" class="hero-badge">Powered by @cat5th/pool.js</a>
       <h1 class="hero-title">
         Rate-Limited<br>HTTP Reverse Proxy
       </h1>
