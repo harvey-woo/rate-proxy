@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "github": "GitHub",
+    "npm": "npm"
+  },
+  "home": {
+    "badgeText": "Powered by {'@'}cat5th/pool.js",
+    "titleLine1": "Rate-Limited",
+    "titleLine2": "HTTP Reverse Proxy",
+    "descLine1": "Protect upstream servers with precise concurrency control.",
+    "descLine2": "Simple, lightweight, built on ES2024 resource management.",
+    "installLabel": "Install"
+  },
+  "features": {
+    "title": "Features",
+    "concurrencyTitle": "Concurrency Control",
+    "concurrencyDesc": "Limit the number of simultaneous upstream connections. New requests queue automatically when the limit is reached.",
+    "zeroConfigTitle": "Zero Config",
+    "zeroConfigDesc": "One environment variable to start. Sensible defaults for port (8080), concurrency (5), and timeout (120s).",
+    "transparentProxyTitle": "Transparent Proxy",
+    "transparentProxyDesc": "Forwards headers, handles request bodies, streams responses back. Full HTTP proxy with rate limiting.",
+    "timeoutTitle": "Timeout Protection",
+    "timeoutDesc": "Configurable request timeout with proper 504 responses. Prevents hung connections from consuming resources."
+  },
+  "usage": {
+    "title": "Usage",
+    "basicLabel": "Basic",
+    "concurrencyLabel": "Custom concurrency",
+    "npxLabel": "Via npx (no install)",
+    "envTitle": "Environment Variables",
+    "envTarget": "Upstream server URL (required)",
+    "envPort": "Local listening port",
+    "envConcurrency": "Max concurrent upstream requests",
+    "envTimeout": "Request timeout in milliseconds"
+  },
+  "cta": {
+    "title": "Get Started",
+    "desc": "Protect your upstream servers in one command."
+  },
+  "footer": {
+    "text": "MIT License",
+    "linkText": "harvey-woo/rate-proxy"
+  }
+}

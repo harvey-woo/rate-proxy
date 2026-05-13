@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "github": "GitHub",
+    "npm": "npm"
+  },
+  "home": {
+    "badgeText": "基于 {'@'}cat5th/pool.js",
+    "titleLine1": "限流",
+    "titleLine2": "HTTP 反向代理",
+    "descLine1": "通过精确并发控制保护上游服务器。",
+    "descLine2": "简单、轻量级，基于 ES2024 资源管理。",
+    "installLabel": "安装"
+  },
+  "features": {
+    "title": "特性",
+    "concurrencyTitle": "并发控制",
+    "concurrencyDesc": "限制同时到达上游的连接数。超出限制时，新请求会自动排队等待。",
+    "zeroConfigTitle": "零配置",
+    "zeroConfigDesc": "一个环境变量即可启动。端口（8080）、并发数（5）、超时时间（120s）均有合理的默认值。",
+    "transparentProxyTitle": "透明代理",
+    "transparentProxyDesc": "转发请求头、处理请求体、流式响应返回。带有限流功能的完整 HTTP 代理。",
+    "timeoutTitle": "超时保护",
+    "timeoutDesc": "可配置的请求超时，配合正确的 504 响应。防止挂起的连接消耗资源。"
+  },
+  "usage": {
+    "title": "使用方法",
+    "basicLabel": "基础用法",
+    "concurrencyLabel": "自定义并发数",
+    "npxLabel": "通过 npx（无需安装）",
+    "envTitle": "环境变量",
+    "envTarget": "上游服务器 URL（必填）",
+    "envPort": "本地监听端口",
+    "envConcurrency": "最大上游并发请求数",
+    "envTimeout": "请求超时时间（毫秒）"
+  },
+  "cta": {
+    "title": "快速开始",
+    "desc": "一条命令保护你的上游服务器。"
+  },
+  "footer": {
+    "text": "MIT 协议",
+    "linkText": "harvey-woo/rate-proxy"
+  }
+}

@@ -1,13 +1,21 @@
 {
   "name": "site",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@tabler/icons-vue": "^3.44.0"
   },
   "devDependencies": {
-    "vite": "^8.0.0"
+    "@nuxtjs/i18n": "^10.3.0",
+    "nuxt": "^4.4.0",
+    "typescript": "~5.8.0"
   }
 }
